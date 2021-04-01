@@ -1,0 +1,38 @@
+.user-comments {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  padding: 1rem;
+}
+
+.comments-heading {
+  grid-column: 3 / span 3;
+}
+
+.comments-sort {
+  grid-column: 6 / span 3;
+}
+
+.comments-sort-heading {
+  display: inline;
+}
+
+.comment {
+  grid-column: 3 / span 5;
+}
+
+.comment-likes {
+  grid-column: 8 / span 1;
+}
+
+.comment-name {
+  font-weight: bold;
+}
+
+
+/* TODO: Add breakpoint and responsive styles */
+
+/* TODO: Style sort buttons */
+
+/* TODO: Add typography styles */
